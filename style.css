@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding:0;
+  background-color: #353635;
+}
+
+header{
+  font-family: Stencil Std;
+  color: #fff;
+  text-align: center;
+  background-color: #232424;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+footer{
+  font-family: Stencil Std;
+  color: #fff;
+  text-align: center;
+  background-color: #232424;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.nDestaque{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.nDestaque p{
+  text-align: center;
+  font-size: 20px;
+  font-family: Dejavu Sans, Arial, Verdana, sans-serif;
+  word-spacing: 2px;
+  color: #d1faff;
+  padding-bottom: 50px;
+}
+
+
+.centro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto{
+  width: 500px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.foto:hover{
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 0.7s;
+}
+
+
+#info{
+  border: 1px solid #ebfdff;
+  border-radius: 20px;
+  color: #ebfdff;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 12px;
+  box-shadow: 2px 2px 10px #000000;
+  font-family: OCR A Std, monospace;
+}
+
+.titulo{
+  font-family: Franklin Gothic, Arial Bold;
+  font-size: 15px;
+  background-color: #45b5c4;
+  box-shadow: 2px 2px 10px #000000;
+  border-radius: 20px;
+  color: #ebfdff;
+  padding: 10px 399px;
+  text-align: center;
+  opacity:1;
+}
+
+.titulo:hover {
+  cursor: pointer;
+}
+
+#dec{
+  font-family: Calibri;
+  background-color: #45b5c4;
+  box-shadow: 2px 2px 10px #000000;
+  border-radius: 20px;
+  color: #45b5c4;
+  padding: 8px 520px;
+  opacity:1;
+}
+
+#espaco{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #d1faff;
+}
+
+.titulo2{
+  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  font-size: 15px;
+  background-color: #45b5c4;
+  box-shadow: 2px 2px 10px #000000;
+  border-radius: 20px;
+  color: #ebfdff;
+  padding: 10px 399px;
+  text-align: center;
+}
+
+.borda{
+  color:#45b5c4;
+  width: 65%;
+  text-align: center;
+  border: 1px solid;
+  background-color:#414941;
+  border-radius: 20px;
+  
+}
+
+.borda:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.7s;
+}
+
+  .nome{
+    font-size: small;
+    padding-right: 79%;
+  }
+
+#pular{
+  padding-bottom: 40px;
+}
+
+.frase{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
